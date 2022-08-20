@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', 'Noto Sans TC', system-ui, sans-serif;
+  }
+  /* * {
+    outline: 1px solid #000;
+  } */
+}
+@layer components {
+  .series-link {
+    @apply relative after:content-[''] after:w-0 after:h-2 after:bg-primary after:absolute after:bottom-0 after:left-0 hover:after:w-full
+  }
+  .series-product-item-color {
+    @apply block w-6 h-6 rounded hover:scale-110 hover:transition-all
+  }
+}
+
+/* 透過jQuery控制 漢堡選單(menu-icon)的顯示 */
+.navbar.active {
+  display: block;
+}
