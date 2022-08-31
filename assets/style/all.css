@@ -575,9 +575,9 @@ select {
   html {
     font-family: 'Roboto', 'Noto Sans TC', system-ui, sans-serif;
   }
-  * {
+  /* * {
     outline: 1px solid #000;
-  }
+  } */
 
 *, ::before, ::after {
   --tw-translate-x: 0;
