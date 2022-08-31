@@ -1,6 +1,13 @@
 module.exports = {
   content: ["./app/**/*.{html,ejs}"],
   theme: {
+    screens: {
+      'sm': '576px',
+      'md': '768px',
+      'lg': '992px',
+      'xl': '1280px',
+      '2xl': '1320px',
+    },
     container: {
       center: true,
       padding: '12px',
@@ -19,15 +26,14 @@ module.exports = {
       '8xl': ['64px', '1.5']
     },
     extend: {
-      screens: {
-        'sm': '720px',
-        '2xl': '1320px'
-      },
       colors: {
         'primary': {
-          light: '#FBF2F2',
+          // light: '#FBF2F2',
           DEFAULT: '#AA0601',
           dark: '#650300',
+        },
+        'red': {
+          50: '#FBF2F2',
         },
         'brown': {
           light: '#B75929',

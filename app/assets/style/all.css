@@ -6,9 +6,9 @@
   html {
     font-family: 'Roboto', 'Noto Sans TC', system-ui, sans-serif;
   }
-  /* * {
+  * {
     outline: 1px solid #000;
-  } */
+  }
 }
 @layer components {
   .series-link {
